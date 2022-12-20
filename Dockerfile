@@ -1,4 +1,5 @@
-FROM node:14
+//FROM node:14
+FROM alpine:latest
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
